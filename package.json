@@ -4,6 +4,7 @@
   "description": "React Notes.",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "format": "prettier \"src/**/*.{js,html}\" --write"
@@ -22,6 +23,11 @@
   "devDependencies": {
     "eslint": "^7.3.1",
     "eslint-config-prettier": "^6.11.0",
+    "parcel-bundler": "^1.12.4",
     "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
